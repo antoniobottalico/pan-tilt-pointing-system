@@ -64,27 +64,7 @@ pointing-system/
 └── .gitignore
 ```
 
-## Python client (optional)
 
-A small interactive script is included to control the system from a PC:
-
-```bash
-pip install pyserial
-python examples/python_serial_client.py /dev/ttyUSB0   # or COM5 on Windows
-```
-
-## Publishing to GitHub
-
-From inside the `pointing-system` folder:
-
-```bash
-git init
-git add .
-git commit -m "Initial commit: pan-tilt pointing system"
-git branch -M main
-git remote add origin https://github.com/<your-username>/<repo-name>.git
-git push -u origin main
-```
 
 ## Possible extensions
 
